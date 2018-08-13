@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+}
+.products {
+    margin: 0;
+    padding: 0 20px;
+    list-style: none;
+    font-size: 0;
+    border: 2px solid #eb9a0c;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: left;;
+}
+
+.product-item {
+    display: inline-block;
+    font-size: 1rem;
+    height: 230px;
+    margin-right: 20px;
+    width: 188px;
+    vertical-align: top;
+    position: relative;
+}
+
+.product-item:last-child {
+    margin-right: 0;
+}
+
+.product-item a {
+    text-decoration: none;
+}
+
+.image-section {
+    height: 115px;
+    width: 180px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.image-section__link img {
+    display: block;
+    margin: auto auto;
+}
+
+.brand-section__link {
+    font: 11px/15px 'sans-serif';
+    color: #644a2b;
+    padding: 5px 0 1px 0;
+}
+
+.name-section__link {
+    font: 15px/17px 'sans-serif';
+    color: #222222;
+    letter-spacing: -0.2px;
+}
+
+.name-section__link:hover {
+    color: #b70000;
+}
+
+.artnumber-section__link {
+    color: #7e8d23;
+    font: 0.8rem 'sans-serif';
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.section-price {
+    float: left;
+    width: 90px;
+}
+
+.section-price__link {
+    display: block;
+    font: 700 18px/22px 'sans-serif';
+    color: #222222;
+}
+
+.products__button__container {
+    cursor: pointer;
+    float: right;
+    padding: 4px 8px 0 8px;
+    margin: 0 15px 0 0;
+    position: relative;
+    border-radius: 12px;
+    height: 17px;
+    width: 45px;
+    border-bottom: 1px solid #d76100;
+    background: #eb9a0c;
+    text-shadow: 0 -1px 0 #eb9a0c;
+    text-decoration: none;
+}
+
+.products__button__link {
+    display: block;
+    color: #ffffff;
+    font: 700 11px/13px 'sans-serif';
+    text-transform: uppercase;
+}
+
+.price-and-button {
+    position: absolute;
+    bottom: 5px;
+}
+
+.mfp-inline-holder .mfp-content {
+    width: 300px;
+    background: #218BCE;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 100px;
+}
+
+.mfp-content input {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.buy-button {
+    background: #5499C5;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buy-button:hover {
+    background: #6E709B;
+    cursor: pointer;
+}
+
+.thank-you {
+    font: 700 1.2rem 'sans-serif';
+    color: #ffffff;
+    text-align: center;
+}
